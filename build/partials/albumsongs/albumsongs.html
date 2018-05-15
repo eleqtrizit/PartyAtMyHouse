@@ -1,0 +1,17 @@
+<div data-ui-view="">
+
+	Songs on Album: <br>
+	PUT TITLE HERE<br>
+
+	<div class="songSelect">
+		<img data-ng-src="{{ albsCtl.songs[0].album.images[1].url }}">
+	</div>
+
+	<!-- search results -->
+	<div class="songSelect" data-ng-repeat="song in albsCtl.songs">
+		<a href="/#/"> {{ song.name }}  - {{ song.artists[0].name }}</a><br>
+		{{artist.name}} <br>
+		
+	</div>
+
+</div>

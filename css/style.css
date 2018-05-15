@@ -1,0 +1,103 @@
+html, body {
+    margin: 10px;
+    padding: 10px;
+    background: url('../img/crowd-sm-dark.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: Arial, serif;
+	width:95%;
+}
+
+#search_results {
+	overflow: auto;
+	width: 100%;
+}
+
+div.search, div.demand {
+	color: white;
+	margin: auto;
+	alignment: center;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+div.demand {
+	font-size: 30px;
+}
+
+div.demand b{
+	color:red;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: white;
+}
+
+.songSelect {
+	alignment: center;
+	text-align: center;
+	color: white;
+}
+
+
+.artistSelect {
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	height: auto;
+	z-index: 0;
+	alignment: center;
+	text-align: center;
+	margin: 10px 2px 10px 2px;
+	transition: all .15s ease-in-out;
+
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
+
+
+.artistSelect:hover {
+	background: #3e5c5c;
+	z-index: 100;
+	transform: scale(1.4,1.4);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+}
+
+.artistSelect img {
+    width: 100px;
+}
+
+.logo {
+	text-align: center;
+	alignment: center;
+}
+
+.homeSelect {
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	height: auto;
+	z-index: 0;
+	alignment: center;
+	text-align: center;
+	margin: 10px 2px 10px 2px;
+	transition: all .15s ease-in-out;
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
+
+.homeSelect:hover {
+	background: #3e5c5c;
+	z-index: 100;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+}
+
+.homeSelect img {
+	width: 100px;
+}

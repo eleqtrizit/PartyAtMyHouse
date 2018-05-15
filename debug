@@ -1,0 +1,61 @@
+Creating party /home/agustin/partyatmyhouse/parties/party.5141
+res = {"access_token":"BQDkECAYiOxDKklwmpiS9Rmv8ZQ3tS_FN0fY9yAC_-XwGTH_gQr1zyhrSpxHlo6lHwnUOrZ7L8Q0EU3FDQE190Zzq3PG-BwmxixW7dCDj-FmsCKn8WVTV0L99Py6Ho7ZIjU3N37ARiOMRMjBoL0yWKdJTScZu8KJVzqwwt3UsglPcrY","token_type":"Bearer","expires_in":3600,"refresh_token":"AQBcnrUNFUs1Goxj0lC47Ermyvw0XlD9VrF3bepUjNkUsqppFlwvxl_qYyQVFwiyo2rJtMmqDyBkQiuKZrIQhZF3v5WyCLE8yUtVb3ktHYAKla94MfYg2pUjJZjMiWGM63U","scope":"playlist-modify-public"}
+$VAR1 = '{
+  "display_name" : "Agustin Rivera",
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/user/12411232"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 233
+  },
+  "href" : "https://api.spotify.com/v1/users/12411232",
+  "id" : "12411232",
+  "images" : [ {
+    "height" : null,
+    "url" : "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/19429883_10155426457127288_3524751220337990728_n.jpg?_nc_cat=0&oh=3a995619ec5e84fc4aa98a9da19ead94&oe=5B55896C",
+    "width" : null
+  } ],
+  "type" : "user",
+  "uri" : "spotify:user:12411232"
+}';
+curl -X POST "https://api.spotify.com/v1/users/12411232/playlists" -H "Authorization: Bearer BQDkECAYiOxDKklwmpiS9Rmv8ZQ3tS_FN0fY9yAC_-XwGTH_gQr1zyhrSpxHlo6lHwnUOrZ7L8Q0EU3FDQE190Zzq3PG-BwmxixW7dCDj-FmsCKn8WVTV0L99Py6Ho7ZIjU3N37ARiOMRMjBoL0yWKdJTScZu8KJVzqwwt3UsglPcrY" -H "Content-Type: application/json" --data "{\"name\":\"PartyAtMyHouse\", \"public\":true}"
+$VAR1 = '{
+  "collaborative" : false,
+  "description" : null,
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/user/12411232/playlist/4j40lsUGUU05tMMN9dri1m"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "href" : "https://api.spotify.com/v1/users/12411232/playlists/4j40lsUGUU05tMMN9dri1m",
+  "id" : "4j40lsUGUU05tMMN9dri1m",
+  "images" : [ ],
+  "name" : "PartyAtMyHouse",
+  "owner" : {
+    "display_name" : "Agustin Rivera",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/12411232"
+    },
+    "href" : "https://api.spotify.com/v1/users/12411232",
+    "id" : "12411232",
+    "type" : "user",
+    "uri" : "spotify:user:12411232"
+  },
+  "primary_color" : null,
+  "public" : true,
+  "snapshot_id" : "j93NXEqEhevt141HWQXMFhR8Cgriwlud97Z0psfMOuNS33p2mUuJu69pgMHdgvan",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/users/12411232/playlists/4j40lsUGUU05tMMN9dri1m/tracks",
+    "items" : [ ],
+    "limit" : 100,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 0
+  },
+  "type" : "playlist",
+  "uri" : "spotify:user:12411232:playlist:4j40lsUGUU05tMMN9dri1m"
+}';

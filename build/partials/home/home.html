@@ -1,0 +1,59 @@
+<div data-ui-view="">
+
+	<span data-ng-if="homeCtl.partyID">
+		<div class="search">
+			Party ID: {{ homeCtl.partyID }}<br>
+		</div>
+	</span>
+
+	<span data-ng-if="homeCtl.partyID">
+		<div class="demand">
+			Pick an option:
+		</div>
+
+		<div class="search">
+			<a href="/#/playlist">View Playlist</a>
+		</div>
+
+		<div class="search">
+			<a href="/#/artistsearch">Search by Artist</a>
+		</div>
+
+		<div class="search">
+			<a href="/#/songsearch">Search by Song</a>
+		</div>
+
+		<!--div class="search">
+			<a href="/#/albumsearch">Search by Album</a>
+		</div-->
+
+		<!--div class="search">
+			<a href="/#/populartracks">Popular Tracks</a>
+		</div-->
+
+		<div class="search">
+			<a href="/#/leaveparty">Leave Party</a>
+		</div>
+	</span>
+
+
+
+	<span data-ng-if="!homeCtl.partyID">
+		<br><br>
+		<div class="demand">
+			<a href="http://accounts.spotify.com/authorize?client_id=94b828f5ae5f4e448c44bba8c18b1f38&response_type=code&redirect_uri=https://www.partyatmy.house/callback.cgi&scope=playlist-modify-public">
+			Start a Party</a>
+		</div>
+		<div class="demand">
+			<a href="/#/joinparty">Join a Party</a>
+		</div>
+	<br>
+
+	</span>
+
+	<div id="”section1″" class="”col-lg-8" col-xs-6″="">test</div>
+
+	<div id="”section2″" class="”col-lg-4" col-xs-6″="">test</div>
+
+</div>
+

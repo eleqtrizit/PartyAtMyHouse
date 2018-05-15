@@ -1,0 +1,13 @@
+<div class="demand"><br>Playlist</div>
+
+
+
+<div data-ng-repeat="song in playlistCtl.songs">
+	<div class="songSelect">
+		{{song.name}}
+	</div>
+	<div class="songSelect" data-ng-repeat="artist in song.artists">
+			{{ artist.name }}
+	</div>
+	<br>
+</div>

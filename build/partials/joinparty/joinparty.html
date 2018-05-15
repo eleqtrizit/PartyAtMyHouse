@@ -1,0 +1,14 @@
+<div data-ui-view="">
+
+	<span data-ng-if="!joinCtl.validation">
+		<div class="search">
+			<input type="text" placeholder="Join a party!" data-ng-model="joinCtl.partyID" data-ng-change="joinCtl.joinParty()">
+		</div>
+	</span>
+
+	<span data-ng-if="joinCtl.validation">
+		<br>
+		<div class="demand"><b>PARTY VALIDATED</b></div>
+		<div class="search"><a href="/#/">Continue</a></div>
+	</span>
+</div>

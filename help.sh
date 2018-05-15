@@ -1,0 +1,4 @@
+#!/bin/sh
+
+curl -H "Authorization: Basic OTRiODI4ZjVhZTVmNGU0NDhjNDRiYmE4YzE4YjFmMzg6NjdjYjUyMmM2YjhiNDQ4NzgzNDY1Mjg3YWNiNWM1MTM=" -d grant_type=authorization_code -d code=AQBEAViRf0D_stGoidZmc9UcC0xa7DV_pUYOAxX3eQ411_VcjxebpjfR6VEj-iZnMziMQDM65dSLD3Ra0UTC3EVMC4O8fuL_C9n1YMMav6JdgwW7phznoGtl2DFNzHd3pP4OwXGc566pUUR3Hezwd-HZCTetwXR6NnP3c7ly-dkrufoQR8Ilkx7rJfEva3grOfNcw7ZX8XV-7i74Ev6VhCItD08BCRX4ZHWpvcYCpapU80w -d redirect_uri=https://www.partyatmy.house/callback.cgi https://accounts.spotify.com/api/token
+

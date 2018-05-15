@@ -1,0 +1,19 @@
+<div data-ui-view="">
+
+	<div class="demand">Search by Album:</div>
+
+	<!-- search box -->
+	<div class="search">
+		<input type="text" placeholder="Search for an album" data-ng-model="albCtl.searchalbum" data-ng-change="albCtl.researchAlbum()">
+	</div>
+
+	<!-- search results -->
+	<ul class="search_results">
+		<li class="albumSelect" data-ng-repeat="album in albCtl.albums">
+			<a href="/#/songsbyalbum/{{ album.id }}"><img data-ng-src="{{ album.images[2].url }}"><br>
+				{{album.name}} <br>
+			</a>
+		</li>
+	</ul>
+
+</div>
