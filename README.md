@@ -14,4 +14,4 @@ The parties only last about an hour, as the Spotify Token expires and I never pu
 
 ## Usage  
 
-If you do want to use this, you will need to edit the $install_path to where you put the files, and you will need to go get a Spotify API key at https://beta.developer.spotify.com/
+If you do want to use this, you will need to edit the $install_path variable to where you put the files, and you will need to go get a Spotify API key at https://beta.developer.spotify.com/ and edit that into the CGI files as well.
