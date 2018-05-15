@@ -14,8 +14,8 @@ open(DEBUG, ">>debug") or die $!;
 my $server_endpoint = "https://accounts.spotify.com/api/token";
 my $code = $cgi->param('code');
 my $redirect_uri="https://www.partyatmy.house/callback.cgi";
-my $client_id="94b828f5ae5f4e448c44bba8c18b1f38";
-my $client_secret="67cb522c6b8b448783465287acb5c513";
+my $client_id=""; # your API info
+my $client_secret=""; # your API info
 my $encoded_payload=encode_base64("$client_id:$client_secret","");
 
 my $json = &getToken;
