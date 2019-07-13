@@ -8,7 +8,7 @@ I really don't recommend using this project for anything yourself, as it was wri
 
 ## Update
 
-The program no longer works as it was not updated as Spotify APIs envolved.  
+The program no longer works as it was not updated as Spotify APIs enolved.  
 
 ## Bugs
 
