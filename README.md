@@ -6,7 +6,9 @@ I wrote this project while taking an AngularJS class at Bitwise Industries in Fr
 
 I really don't recommend using this project for anything yourself, as it was written while I was a beginner in AngularJS.
 
-However, it is functional, and if you wish to try it out, you can go to https://www.partyatmy.house and try it out.
+## Update
+
+The program no longer works as it was not updated as Spotify APIs envolved.  
 
 ## Bugs
 
