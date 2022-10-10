@@ -1,14 +1,14 @@
 # PartyAtMyHouse
 
+## Update
+
+The program no longer works as it was not updated as Spotify APIs evolved.  
+
 ## Origins of this Project
 
 I wrote this project while taking an AngularJS class at Bitwise Industries in Fresno, CA.
 
 I really don't recommend using this project for anything yourself, as it was written while I was a beginner in AngularJS.
-
-## Update
-
-The program no longer works as it was not updated as Spotify APIs enolved.  
 
 ## Bugs
 
